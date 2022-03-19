@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:ems="10"
+        android:hint="Enter Post Number Here"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -28,14 +29,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPostNumber"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.099"
+        app:rippleColor="#9C27B0" />
 
     <TextView
         android:id="@+id/tvLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="Enter Post Number Here"
+        android:text="Post Searching App"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,10 +45,12 @@
 
     <TextView
         android:id="@+id/tvId"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="40dp"
-        android:text="TextView"
+        android:text="Post Id :"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvUserId"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,10 +59,12 @@
 
     <TextView
         android:id="@+id/tvUserId"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="56dp"
-        android:text="TextView"
+        android:text="User Id :"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvTitle"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,10 +73,12 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="64dp"
-        android:text="TextView"
+        android:text="Titel :"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvBody"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,10 +87,12 @@
 
     <TextView
         android:id="@+id/tvBody"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="100dp"
-        android:text="TextView"
+        android:text="Body :"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
